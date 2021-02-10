@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy new year</title>
+    <style>
+
+        body {
+            background-color: ivory;
+            background-image: url('https://new-year.spartacodingclub.kr/images/pattern.png');
+            background-position: 600px 100px;
+            background-repeat: no-repeat;
+        }
+
+        /* (*) < 모두를 바꿔라*/
+        * {
+            font-family: 'Yeon Sung', cursive;
+        }
+        .yahoo {
+            display: block;
+            width: 200px;
+            height: 200px;
+            border: solid 3px darkred;
+            background-color: white;
+            box-shadow: 0px 0px 10px 0px darkred;
+            border-radius: 200px;
+            margin: 10px;
+            background-size: cover;
+            background-position: center;
+            margin: 80px auto 50px auto;
+            background-image: url(https://media.discordapp.net/attachments/807835858023481375/808386607266136155/2021_02_08_22_51_06_579.png?width=426&height=362);
+        }
+
+        .title{
+            color: darkred;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .msg {
+            color: darkred;
+            text-align: center;
+            font-size: 28px;
+            line-height: 48px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .btn-back {
+            width: 150px;
+            height: 50px;
+
+            color: darkred;
+            border: 2px solid darkred;
+            background-color: white;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn-share {
+            width: 150px;
+            height: 50px;
+
+            color: white;
+            border: 2px solid darkred;
+            background-color: darkred;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .title2 {
+            color: palevioletred;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 780px) {
+            body {
+                background-position: 70px -70px;
+                background-size: 500px;
+            }
+            .yahoo {
+                margin-top: 50px;
+            }
+            .msg {
+                font-size: 24px;
+                line-height: 36px;
+                margin-bottom: 36px;
+                padding: 10px;
+            }
+            .msg > br {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class=yahoo></div>
+    <h1 class="title">2021년 쥐띠의 운세!</h1>
+    <h2 class="title2">애정운</h2>
+    <p class="msg">
+        쌓아두었던 사회적인 활동에 대한<br/>
+        성취감을 다시 한번 느끼게 되며<br/>
+        모든 일을 편안하게 임할 수 있을 것이다.<br/>
+        허나, 성급히 일을 해결하려고 하면<br/>
+        잘 안 풀릴 수 있으니 주의해야 하고<br/>
+        주변의 조언을 받아들여<br/>
+        최선의 방법을 찾도록 해야 한다.
+    </p>
+    <div class="btn">
+        <button class="btn-back">뒤로가기</button>
+        <button class="btn-share">공유하기</button>
+    </div>
+</body>
+
+</html>
